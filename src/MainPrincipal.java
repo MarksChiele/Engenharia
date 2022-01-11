@@ -191,33 +191,33 @@ public class MainPrincipal {
                       
                   
                  if(aux==8){
-                	 String[] playerType = {"Terrorist", "CounterTerrorist"};
-                	 String[] weapons = {"AK-47", "AWP", "Knife", "Desert Eagle"};
+                	// String[] playerType = {"Terrorist", "CounterTerrorist"};
+                	 //String[] weapons = {"AK-47", "AWP", "Knife", "Desert Eagle"};
                 	
                 	 
-                	 String getRandomPlayerType() {
-                	        Random random = new Random();
-                	        int randInt = random.nextInt(playertype.lenght);
-                	        return playerType[randInt];
+                //  String getRandomPlayerType() {
+                	  //      Random random = new Random();
+                	 //       int randInt = random.nextInt(playertype.lenght);
+                	//        return playerType[randInt];
                 	        
-                 }      
-                	 public static String getRandomWeapon() {
-                	        Random random = new Random();
-                	        int randInt = random.nextInt(weapons.length);
-                	        return weapons[randInt];
-                	    }
-                	 
+               //  }      
+                	// public static String getRandomWeapon() {
+                	  //      Random random = new Random();
+                	  //      int randInt = random.nextInt(weapons.length);
+                	    //    return weapons[randInt];
+                	  
+                 }
                 
          
                  
-                 
-                	 for (int i = 0; i < 4; i++) {
-                         Player player = PlayerFactory.getPlayer(getRandomPlayerType());
+                 //
+                	 //for (int i = 0; i < 4; i++) {
+                        // Player player = PlayerFactory.getPlayer(getRandomPlayerType());
 
-                         player.assignWeapon(getRandomWeapon());
+                      //   player.assignWeapon(getRandomWeapon());
 
-                         player.mission();
-                     }
+                        // player.mission();
+                    // }
                  }
                 	 
                 	 
@@ -290,5 +290,5 @@ public class MainPrincipal {
                  
 }
 }
-}	
+	
        
